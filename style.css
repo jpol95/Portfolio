@@ -127,7 +127,7 @@ form {
 }
 
 .contactbox{
-    height: 400px;
+    height: 500px;
     padding: 25%;
     background-color:black;
     opacity: 0.9;
@@ -149,7 +149,7 @@ button {
 }
 
 #links img, #links2 img{
-    width: 50px;
+    width: 20%;
     height: auto;
     flex: 1;
     padding-left: 40%;
