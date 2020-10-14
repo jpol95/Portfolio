@@ -22,7 +22,7 @@
 <section id="home"><h2>Home</h2>
     <div class="group">
     <div class="item">
-    <img src="buffy_summers_go_fish.jpg" alt="buffy">
+    <img src="home.jpg" alt="buffy">
     </div>
     <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
@@ -78,29 +78,25 @@
 </div>
 </div>
 </section>
-    <section id="contact"><h2>Contact</h2>
-        <div class="group">
-            <div class="item">
-            <img src="call me.jpg" alt="buffy">
-            </div>
-            <div class="item">
-                <form action="https://formspree.io/f/mvovkagg" method="POST">
-                <label for="name-input">Name:</label>
-                <input id="name-input" type="text" name="name" pattern ="[a-zA-Z]+\s[a-zA-Z]+"required>
-                <label for="email">Email:</label>
-                <input id="email" type="email" name="_replyto"  required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required maxlength="300"></textarea>
-                <button type="submit" value="Send">Submit</button>
-                <button type="reset">Reset</button>
-            </form>
-</div>
-</div>
-</section>
 <section id="location"><h2>Where am I?</h2>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.1545490388003!2d-77.03878078499076!3d38.89758097957068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b78e00410e73%3A0xac8125363999a8f!2s1600%20Pennsylvania%20Avenue%20NW%2C%20Washington%2C%20DC%2020500!5e0!3m2!1sen!2sus!4v1602622908648!5m2!1sen!2sus"
      width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </section>
-    
+</section>
+<section id="contact"><h2>Contact</h2>
+    <div class="group">
+        <div class="item" id="formfill">
+            <form action="https://formspree.io/f/mvovkagg" method="POST">
+            <label for="name-input">Name:</label>
+            <input id="name-input" type="text" name="name" pattern ="[a-zA-Z]+\s[a-zA-Z]+" placeholder="My name is..."required>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="_replyto" placeholder="example@mail.com" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required maxlength="300"></textarea>
+            <button type="submit" value="Send">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+</div>
+</div>
+</section>    
 </body>
 </html>
