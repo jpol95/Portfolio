@@ -1,7 +1,7 @@
 body{
     margin:0;
     font-size: 20px;
-    background-image: url('lb7.jpg');
+    background-image: url('Photos/lb7.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,7 +87,7 @@ section h2{
 }
 
 #contact{
-    background-image: url(galaxy.jpg);
+    background-image: url(Photos/galaxy.jpg);
     color: white;
     background-repeat:no-repeat;
     background-size: cover;
@@ -178,11 +178,11 @@ button {
 
 
     form input[type=text]{
-        background-image: url(namebadge1.jpg);
+        background-image: url(Photos/namebadge1.jpg);
     }
     
     form input[type=email]{
-        background-image: url(email.jpg);
+        background-image: url(Photos/email.jpg);
     }
 
     form input[type=text], form input[type=email]{
