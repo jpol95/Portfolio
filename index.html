@@ -7,9 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!--- Creating Navbar --->
 <header> 
     <h1>Jesse Pollack</h1>
     <nav id="navbar"> 
+        <!--- Linking each element to different parts of the webpage. Eventually, when my portfolio gets big enough, 
+        I'll be able to link to other whole pages-->
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -19,19 +23,21 @@
         </ul>
     </nav>
 </header>
+<!--- Creating "Home" section, using flexbox to dynamically position elements within class "group" --->
 <section id="home"><h2>Intro</h2>
     <div class="group">
     <div class="item">
-    <img src="Photos/home.jpg" alt="a house">
+    <img src="Photos/me2.png" alt="a house">
     </div>
     <div class="item">My name is Jesse Pollack! I'm from South Florida and have just moved to Los Angeles to begin
         my coding adventure. My hobbies include outdoor activities such as hiking and running, as well as watching
         my favorite TV shows and movies. I'm a huge puzzle solver and will spend hours staring at a problem I'm struggling with 
-        just so I can get the euphoria that comes with the solution, so coding's right up my alley!
+        just so I can get the euphoria that comes with the solution, so coding is right up my alley!
 
 </div>
 </div>
 </section>
+<!--- Creating "About" section, using flexbox to dynamically position elements within class "group" --->
 <section id="about">
     <h2>About</h2>
     <div class="group-reverse">
@@ -44,10 +50,11 @@
                 programming classes in college, we had plenty of fairly demanding group projects that taught us the importance of delegation, 
                 constructive criticism, and open communication. Despite the difficulty of many of these assignments, I relished in the intellectual thrill
                 of solving puzzles with my fellow peers, and I wouldn't trade our late nights in the study room of planning, coding, and debugging for the world! I wholeheartedly look forward to 
-                making these team-bonding experiences my full time career. 
+                making these team-bonding experiences my full-time career. 
     </div>
 </div>
 </section>
+<!--- Creating "Work" section, using flexbox to dynamically position elements within class "group" --->
 <section id="work">
     <h2>My Initial Website(Project)</h2>
     <div class="group">
@@ -55,37 +62,42 @@
         <a href="https://github.com/jpol95/My-Website"><img src="Photos/website.PNG" alt="my website"></a>
         </div>
         <div class="item">
-    Here are links to some of my github projects! While I don't have too many projects up as of yet, I do have 
-    the website I worked on for the pre-course. Fortunately, I've come a ways in just the two days that I have been a 
-    part of thinkful, and have learned how to add interactive elements to my website and make my website dynamically respond to changes
-    in screen dimensions! CLick the screenshot to read the source code, as well as to check out my 
-    github(or click on the github logo in the contact section)!
+            Here are links to some of my Github projects! While I don't have too many projects up as of yet, I do have the website I 
+            worked on for the pre-course. Fortunately, I've come a long way in just the two days that I have been a part of Thinkful,
+             and have learned how to add interactive elements to my website and make my website dynamically respond to changes in screen
+              dimensions! Click the screenshot to read the source code, as well as to check out my Github(or click on the Github logo in 
+              the contact section)!
 
 </div>
 </div>
 </section>
+<!--- Creating "Services" section, using flexbox to dynamically position elements within class "group" --->
 <section id="services"><h2>Services</h2>
     <div class="group-reverse">
         <div class="item">
         <img src="Photos/services.jpg" alt="services">
         </div>
         <div class="item">
-        The serviced I intend to provide largely reside in the back-end realm of programming. 
-        While I love designing the visual aspect of a website, my real passion lies in the long and arduous
-        study of algorithms, formulas, and object-oriented and functional programing. I love working with Java and, from what 
-        I've learned so far, Javascript. I hope to absorb as many backend languages as I can in the duration
-        of this course. I also intend to work on a JavaFX game as a pet project while I'm working through the course material. 
+            The services I intend to provide largely reside in the backend realm of programming. While I love designing the visual 
+            aspect of a website, my real passion lies in the long and arduous study of algorithms, formulas, and object-oriented and 
+            functional programming. I love working with Java and, from what I've learned so far, Javascript. I hope to absorb as many 
+            backend languages as I can in the duration of this course. I also intend to work on a JavaFX game as a pet project while 
+            I'm working through the course material.
 </div>
 </div>
 </section>
+<!--- Creating "Location" section, using flexbox to dynamically position elements within class "group" --->
 <section id="location"><h2>Where am I?</h2>
-    <p> President's just a part time job until I get my programming career off the ground. Feel free to visit the map below
-        to checkout where I live, and, if you like what you see, please fill out the contact form or click any of the icons to 
-        get in touch with me. Hope you enjoyed visiting my website!
+    <p> Being President's just a part-time job until I get my programming career off the ground. 
+        Feel free to visit the map below to check out where I live and, if you like what you see, 
+        please fill out the contact form or click any of the icons to get in touch with me. I hope 
+        you enjoyed visiting my website!
     </p>
+<!--- Creating the Google Maps attachment near the bottom of my webpage --->
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.1545490388003!2d-77.03878078499076!3d38.89758097957068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b78e00410e73%3A0xac8125363999a8f!2s1600%20Pennsylvania%20Avenue%20NW%2C%20Washington%2C%20DC%2020500!5e0!3m2!1sen!2sus!4v1602622908648!5m2!1sen!2sus"
      width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </section>
+<!--- Creating "Contact" section, using flexbox to dynamically position elements within class "group" --->
 <section id="contact"><h2>Contact</h2>
     <div class="contactbox">
     <div class="group">
@@ -102,6 +114,7 @@
         </form>
     </div>
     </div>
+    <!--- These are the clickable logos at the bottom, each of which will take you to my account on its corresponding website --->
     <div class="group" id="links2">
         <div class="item"> <a href="tel:9548827402"><img src="Photos/phone.jpg" alt="Phone"></a></div>
          <div class="item"><a href="mailto:jesse.lincolndouglas@gmail.com"><img src="Photos/black-gmail-logo.png" alt="github"></a></div>

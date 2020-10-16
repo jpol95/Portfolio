@@ -17,6 +17,11 @@ header h1{
     text-align: center;
 }
 
+/*
+I try my best to avoid absolute positioning by using percentages instead of pixels
+*/
+
+
 img{
     width: 90%;
     height: auto;
@@ -36,6 +41,11 @@ header nav ul{
     padding-top: 18px
 }
 
+/* 
+Implementing flexbox so that my items all share an equal ratio of the content width
+
+*/
+
 .item{
     flex: 1;
 }
@@ -44,6 +54,10 @@ header nav ul li{
     text-decoration: none;
 }
 
+
+/*
+Styling the links in the navbar to be white, no format
+*/ 
 a{
     color: white;
     text-decoration: none;
@@ -58,6 +72,11 @@ section{
  padding: 5px 20%;
  padding-bottom:20px;
 }
+
+/*
+Mobile-dirst development. Making the flex-direction column unless the screen width is bigger than 
+800px
+*/
 
 .group {
     display: flex;
@@ -94,13 +113,21 @@ section h2{
     
 }
 
-
+/* 
+This is the link to the Google Maps attachment on my website
+*/
 iframe{
    display: block;
    margin: 0 auto;
    width: 100%;
 
 }
+
+/*
+Here I'm formatting all of the text inputs. Notice, I do not include links to the 
+background images inside of the input lines because on mobile they would cause the format of the 
+page to be askew. So, I only include the search logos after the media query
+*/
 form label{
     display: block;
     margin-bottom: 5px;
@@ -125,7 +152,9 @@ form {
     width: auto;
     display: block; 
 }
-
+/*
+I'm setting the background style of the box where the form is. 
+*/
 .contactbox{
     height: 500px;
     padding: 25%;
@@ -156,7 +185,12 @@ button {
 }
 
 
+/*
+I'm making the flex orientation row instead of column if the user is viewing a screen wider than 800px
+*/
+
 @media all and (min-width: 800px){
+
     header{
         display: flex;
         justify-content: space-between;
@@ -169,6 +203,10 @@ button {
         display: flex;
         justify-content: space-between;
     }
+/* 
+Alternates the order of image/text for every other section on my website
+*/
+
     .group{
         flex-direction: row;
     }
@@ -176,6 +214,9 @@ button {
         flex-direction: row-reverse;
     }
 
+    /*
+    Creates little logos inside input forms
+    */
 
     form input[type=text]{
         background-image: url(Photos/namebadge1.jpg);
